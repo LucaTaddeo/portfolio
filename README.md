@@ -14,6 +14,7 @@ To see the hosted portfolio, you can visit me at [lucataddeo.com](https://lucata
 This project is mainly developed using [React.js](https://reactjs.org). The UI Library implemented is Junior Garcia's [NextUI](https://nextui.org). In addition, following libraries are also used: 
 
 - [Babel](https://babeljs.io) as JavaScript compiler
+- [React Router](https://reactrouter.com/en/main) for routing
 - [use-dark-mode](https://github.com/donavon/use-dark-mode) to handle dark and light mode theming
 
 ### Deployment
