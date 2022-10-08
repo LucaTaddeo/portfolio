@@ -4,15 +4,21 @@
   "homepage": "https://lucataddeo.com",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.8",
     "@nextui-org/react": "^1.0.0-beta.10",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^7.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.2",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "use-dark-mode": "^2.3.1",
+    "use-mobile-detect-hook": "^1.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
