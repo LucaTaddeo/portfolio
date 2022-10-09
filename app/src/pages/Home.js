@@ -1,6 +1,4 @@
-import {
-  Link,
-} from "@nextui-org/react";
+import { Link } from "@nextui-org/react";
 import React from "react";
 import USER from "../data/thisIsMe";
 import { AnimatePresence, motion } from "framer-motion";
@@ -9,6 +7,7 @@ import { SUBJECT_FOR_EMAILS } from "../data/contacts";
 import SocialBar from "../components/SocialBar";
 import Introduction from "../sections/Introduction";
 import AboutMe from "../sections/AboutMe";
+import WorkExperience from "../sections/WorkExperience";
 
 const maxWidthOfBody = "900px";
 
@@ -34,7 +33,7 @@ const EmailContainer = () => {
   );
 };
 
-const Home = (props) => {
+const Home = () => {
   // const device = useMobileDetect();
 
   return (
@@ -42,8 +41,9 @@ const Home = (props) => {
       <AnimatePresence mode="wait">
         <SocialBar key={1} />
         <Introduction key={2} maxWidth={maxWidthOfBody} />
-        <AboutMe maxWidth={maxWidthOfBody} />
-        <EmailContainer key={3} />
+        <AboutMe key={3} maxWidth={maxWidthOfBody} />
+        <WorkExperience key={4} maxWidth={maxWidthOfBody} />
+        <EmailContainer key={5} />
       </AnimatePresence>
     </div>
   );

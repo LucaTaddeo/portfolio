@@ -2,7 +2,7 @@ import { Card, Text, Grid } from "@nextui-org/react";
 import React from "react";
 import { motion } from "framer-motion";
 //import useMobileDetect from "use-mobile-detect-hook";
-import ProfilePic from "../data/profile.jpeg";
+import ProfilePic from "../data/images/profile.jpeg";
 import ListElement from "../components/ListElement";
 
 const cardVariants = {
@@ -37,7 +37,7 @@ const AboutMe = ({maxWidth}) => {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          height: "20vh",
+          minHeight: "20vh",
         }}
       >
         <motion.div className="card" variants={cardVariants}>

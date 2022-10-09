@@ -18,7 +18,7 @@ const Introduction = ({maxWidth}) => {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          height: "100vh",
+          minHeight: "100vh",
         }}
       >
         <Text h4 color="secondary" style={{ marginBottom: 0, fontSize: 23 }}>
@@ -36,11 +36,11 @@ const Introduction = ({maxWidth}) => {
           {USER.firstName + " " + USER.lastName}.
         </Text>
         <Text h2>{USER.subtitle}</Text>
-        <Text p style={{ fontSize: 17 }}>
+        <Text style={{ fontSize: 17 }}>
           I'm a {USER.whatAmI}, based in {USER.city}, {USER.state}, specialized
           in building
         </Text>
-        <Text p style={{ fontSize: 17 }}>
+        <Text style={{ fontSize: 17 }}>
           incredible web applications, with a keen eye on astonishing UIs
         </Text>
       </div>
