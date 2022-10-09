@@ -2,8 +2,9 @@ import { Text } from "@nextui-org/react";
 import React from "react";
 import USER from "../data/thisIsMe";
 import { motion } from "framer-motion";
+import {MAX_WIDTH} from "../constants";
 
-const Introduction = ({maxWidth}) => {
+const Introduction = () => {
   return (
     <motion.section
       initial="hidden"
@@ -14,7 +15,7 @@ const Introduction = ({maxWidth}) => {
         style={{
           margin: "0 auto",
           padding: "0.5rem 1.5rem 5rem 1.5rem",
-          maxWidth: maxWidth,
+          maxWidth: MAX_WIDTH,
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
